@@ -14,8 +14,8 @@ stages:
       vmImage: 'ubuntu-20-04'
       demands:
       - npm
-
-    variabels:
+      
+    variables:
       wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
       dotnetSdkVersion: '6.x'
 
