@@ -76,7 +76,7 @@ stages:
     variables:
     - group: Release
     strategy:
-      runtOnce:
+      runOnce:
         deploy:
           steps:
           - download: current
