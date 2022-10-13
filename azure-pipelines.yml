@@ -76,8 +76,8 @@ stages:
     variables:
     - group: Release
     strategy:
-      runOnce:
-        deploy:
+      runOnce:  
+        deploy:  
           steps:
           - download: current
             artifact: drop
